@@ -32,7 +32,7 @@ universe = [
     "ORCL", "ORLY", "OXY", "PAYX", "PCAR", "PEG", "PENN", "PEP", "PFE", "PFG", "PG", "PGR", "PH", "PHM", "PKG",
     "PLD", "PNC", "PNR", "PNW", "POOL", "PPG", "PPL", "PRGO", "PRU", "PSA", "PVH", "PWR", "QCOM", "REG", "REGN",
     "RF", "RHI", "RJF", "RL", "RMD", "ROK", "ROL", "ROP", "ROST", "RSG", "RTX", "SBAC", "SBUX", "SCHW", "SEE", "SHW",
-    "SJM", "SLB", "SNA", "SNPS", "SO", "SPG", "SPGI", "SPY", "SRE", "STE", "STT", "STX", "STZ", "SWK", "SWKS", "SYK",
+    "SJM", "SLB", "SNA", "SNPS", "SO", "SPG", "SPGI",  "SRE", "STE", "STT", "STX", "STZ", "SWK", "SWKS", "SYK",
     "SYY", "T", "TAP", "TDY", "TER", "TFC", "TFX", "TGT", "TJX", "TMO", "TPR", "TRMB", "TROW", "TRV", "TSCO", "TSN",
     "TT", "TTWO", "TXN", "TXT", "TYL", "UAA", "UDR", "UHS", "UNH", "UNM", "UNP", "UPS", "URI", "USB", "VFC", "VLO",
     "VMC", "VNO", "VRSN", "VRTX", "VTR", "VTRS", "VZ", "WAB", "WAT", "WBA", "WDC", "WEC", "WELL", "WFC", "WHR",
