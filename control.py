@@ -25,3 +25,4 @@ sellall(len(data)-1)
 profit,available_book = getdata()
 print('e',available_book)
 
+getdata()
