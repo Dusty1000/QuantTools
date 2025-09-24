@@ -132,6 +132,7 @@ findict = {
     'Capital Expenditure' : 4,
     'Repayment Of Debt' : 5,
 
+
 }
 
 print(yf.Ticker('ABBV'))
@@ -148,7 +149,7 @@ allthing = pickle.load(f)
 f.close()
 
 
-input()
+
 
 
 

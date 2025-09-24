@@ -18,11 +18,10 @@ from datacollection import *
 
 
 for day in range(0, len(data)):
-    for ticker in universe:
-      alpha(ticker,day)
+    for i in range(0,len(universe)):
+        alpha(allthing[i].name,allthing[i].historyRaw,day,i)
 sellall(len(data)-1)
 
 profit,available_book = getdata()
 print('e',available_book)
 
-getdata()
