@@ -7,12 +7,18 @@ from config import *
 from alphaenv import alpha,sellall,getdata
 from datacollection import *
 
-# f = open('cache.pickle','wb')
+
 for every in allthing:
-      if  isnan(every.historyRaw[0]):
-         print(every.name)
-# pickle.dump('allthing',f)
-# f.close()
+    flagged = False
+    for i in range(0,4):
+        for j in range(0,6):
+            if isnan(every.financialsRaw[i][j]):
+                flagged = True
+    if flagged:
+        print(every.name)
+
+
+
 print('eeee')
 
 
@@ -28,4 +34,3 @@ sellall(len(allthing[0].historyRaw)-1)
 profit,available_book = getdata()
 print('e',available_book)
 
-# 992 ench 960 ord

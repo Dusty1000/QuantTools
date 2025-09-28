@@ -52,12 +52,12 @@ findict = {
 #
 # everything = []
 # for each in universe:
-#      everything.append(ticker(each))
-#      print(each)
+#     everything.append(ticker(each))
+#     print(each)
 # f = open('cache.pickle','wb')
 # pickle.dump(everything,f)
 # f.close()
-#
+
 
 
 
