@@ -10,12 +10,12 @@ from datacollection import *
 
 for every in allthing:
     flagged = False
-    for i in range(0,4):
-        for j in range(0,6):
-            if isnan(every.financialsRaw[i][j]):
-                flagged = True
+    for each in every.historyRaw:
+        if isnan(each):
+            flagged = True
     if flagged:
         print(every.name)
+
 
 
 
@@ -25,9 +25,8 @@ print('eeee')
 
 
 
-
-for day in range(0, len(allthing[0].historyRaw)):
-    for i in range(0,len(universe)):
+for day in range(0, 600):
+    for i in range(0,325):
         alpha(allthing[i].name,allthing[i].historyRaw,day,i)
 sellall(len(allthing[0].historyRaw)-1)
 
