@@ -65,8 +65,11 @@ findict = {
 f = open('cache.pickle','rb')
 allthing = pickle.load(f)
 f.close()
-# f = open('cache.pickle','wb')
-# allthing.pop()
+#f = open('cache.pickle','wb')
+
+#allthing.pop(350)
+#pickle.dump(allthing,f)
+#f.close()
 
 
 
